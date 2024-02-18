@@ -1,0 +1,96 @@
+.wrapper-login{
+    width: 420px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper-login h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper-login .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height:100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px ;
+}
+
+.input-box input::placeholder{
+    color: black;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.wrapper-login .Remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    padding: -15px 0px 15px;
+}
+
+.Remember-forgot label input{
+    accent-color: black;
+    margin-right: 4px;
+}
+
+.Remember-forgot a{
+    text-decoration: none;
+    color: black;
+}
+
+.Remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper-login button{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: .5cm;
+}
+
+.wrapper-login .Register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Register-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Register-link p a:hover{
+    text-decoration: underline;
+}
